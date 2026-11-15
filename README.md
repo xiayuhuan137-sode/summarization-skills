@@ -1,5 +1,7 @@
 # Summarization Skills (`ss`)
 
+中文 | [English](README.en.md)
+
 **一份实体，全网共用。** 把本机所有 AI agent 的 skill 目录收拢到一个真源，再用 Windows 目录联接（junction）分发出去——同一批 skill 只存一份，改动一处，所有 agent 同时生效。
 
 One copy of truth. Every agent gets a junction to it. Junction, not symlink, not copy.
