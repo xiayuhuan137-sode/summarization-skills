@@ -37,7 +37,7 @@ DeepSeek Harness 没有"技能面板"：技能是每个会话启动时注入给�
 ## 安装
 
 ```powershell
-git clone <this-repo> ~\ss-src
+git clone https://github.com/xiayuhuan137-sode/summarization-skills.git ~\ss-src
 New-Item -ItemType Directory -Force ~\skills | Out-Null
 Copy-Item -LiteralPath ~\ss-src\ss -Destination ~\skills\ss -Recurse
 pwsh -File ~\skills\ss\scripts\ss.ps1 scan      # 先只读盘点，什么都不改
