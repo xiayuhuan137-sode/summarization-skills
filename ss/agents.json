@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "hub": "%USERPROFILE%\\skills",
+  "agents": {
+    "doubao-user": "%USERPROFILE%\\AppData\\Local\\Doubao\\User Data\\Default\\.doubao\\agent_mode\\workspace\\.user_skills",
+    "doubao-system": "%USERPROFILE%\\AppData\\Local\\Doubao\\User Data\\Default\\.doubao\\agent_mode\\workspace\\.skills",
+    "claude-code": "%USERPROFILE%\\.claude\\skills",
+    "agents-shared": "%USERPROFILE%\\.agents\\skills",
+    "codex": "%USERPROFILE%\\.codex\\skills",
+    "workbuddy": "%USERPROFILE%\\.workbuddy\\skills",
+    "dsh": "%USERPROFILE%\\.dsh\\skills",
+    "dsh-workspace": "%USERPROFILE%\\Documents\\deepseek-harness\\default-workspace\\.dsh\\skills",
+    "dsh-workspace-agents": "%USERPROFILE%\\Documents\\deepseek-harness\\default-workspace\\.agents\\skills",
+    "cursor": "%USERPROFILE%\\.cursor\\skills",
+    "gemini": "%USERPROFILE%\\.gemini\\skills"
+  },
+  "readonly_agents": [
+    "doubao-system"
+  ],
+  "disabled_agents": [],
+  "self_skill": "ss"
+}

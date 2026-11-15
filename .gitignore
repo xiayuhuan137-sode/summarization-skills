@@ -1,0 +1,5 @@
+# 只留可发布的东西，本机运行产生的状态不进仓库
+_rollback/
+*.log
+Thumbs.db
+.DS_Store
